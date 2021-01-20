@@ -1,0 +1,104 @@
+<html>
+<head>
+   <title> Dwarakami's Kitchen </title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+   <div class="second">
+   <div class="navbar">
+           <div class="navlinks">
+               <ul>
+                   <a href="index.html"><li>HOME</li></a>
+                   <a href="menu.html"><li>MENU</li></a>
+                   <a href="review2.html"><li>REVIEWS</li></a>
+               </ul>
+               <button onClick="window.location='Orders.html'" type="button" class="btn">ORDER NOW</button>
+           </div>
+           <div class="vertical-bar">
+               <div class="searchicon">
+                   <i class="fa fa-th-list"></i>
+                   <i class="fa fa-search"></i>
+               </div>
+               <div class="socialicons">
+                   <i class="fa fa-facebook"></i>
+                   <i class="fa fa-twitter"></i>
+                   <i class="fa fa-instagram"></i>
+                   <i class="fa fa-pinterest"></i>
+               </div>
+           </div>
+
+   </div>
+   <div class="rev-section">
+
+<h2 class="title">Our Guests Love Us!</h2>
+<p class="note">We are always looking to deliever 100% satisfaction. Check out our reviews and if possible, please leave one!</p>
+
+<div class="reviews">
+
+<div class="review">
+   <div class="head-review">
+      <img src="https://www.clearmountainbank.com/wp-content/uploads/2020/04/male-placeholder-image-400x400.jpeg" width="250px">
+   </div>
+   <div class="body-review">
+      <div class="name-review">Nathan D.</div>
+      <div class="place-review">Germany</div>
+      <div class="desc-review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati eligendi suscipit illum officia ex eos.</div>
+   </div>
+</div>
+<div class="review">
+   <div class="head-review">
+      <img src="https://riverwalkcounseling.net/wp-content/uploads/2018/06/image-placeholder-female-1.png" width="250px">
+   </div>
+   <div class="body-review">
+      <div class="name-review">Mary Will</div>
+      <div class="place-review">Paris</div>
+      <div class="desc-review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati eligendi suscipit illum officia ex eos.</div>
+   </div>
+</div>
+<div class="review">
+   <div class="head-review">
+      <img src="https://riverwalkcounseling.net/wp-content/uploads/2018/06/image-placeholder-female-1.png" width="250px">
+   </div>
+   <div class="body-review">
+      <div class="name-review">Kevin Tuck</div>
+      <div class="place-review">New York</div>
+      <div class="desc-review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati eligendi suscipit illum officia ex eos.</div>
+   </div>
+</div>
+</div>
+</div>
+   <section>
+     <script src="myscripts.js"></script>
+     <div class="container">
+       <form action="https://formspree.io/f/mwkwakne" method="POST" id="my-form">
+
+         <div class="form-group">
+           <label for="firstName"> First Name</label>
+           <input type="text" id="firstName" name="firstName">
+         </div>
+
+         <div class="form-group">
+           <label for="latsName">Last Name</label>
+           <input type="text" id="lastName" name="lastName">
+         </div>
+
+         <div class="form-group">
+           <label for="email">Email</label>
+           <input type="email" id="email" name="email">
+         </div>
+
+         <div class="form-group">
+           <label for="massage">Review</label>
+           <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+         </div>
+
+         <button type="submit">Submit</button>
+       </form>
+     </div>
+     <div id="status"></div>
+   </section>
+</body>
+</html>

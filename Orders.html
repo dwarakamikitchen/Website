@@ -1,0 +1,69 @@
+<html>
+<head>
+   <title> Dwarakami's Kitchen </title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+   <div class="third">
+   <div class="navbar">
+           <div class="navlinks">
+               <ul>
+                   <a href="index.html"><li>HOME</li></a>
+                   <a href="menu.html"><li>MENU</li></a>
+                   <a href="review2.html"><li>REVIEWS</li></a>
+               </ul>
+               <button onClick="window.location='Orders.html'" type="button" class="btn">ORDER NOW</button>
+           </div>
+           <div class="vertical-bar">
+               <div class="searchicon">
+                   <i class="fa fa-th-list"></i>
+                   <i class="fa fa-search"></i>
+               </div>
+               <div class="socialicons">
+                   <i class="fa fa-facebook"></i>
+                   <i class="fa fa-twitter"></i>
+                   <i class="fa fa-instagram"></i>
+                   <i class="fa fa-pinterest"></i>
+               </div>
+           </div>
+   </div>
+   <section>
+     <script src="myscripts.js"></script>
+     <div class="container">
+       <form action="https://formspree.io/f/mbjpwggk" method="POST" id="my-form">
+
+         <div class="form-group">
+           <label for="firstName"> First Name</label>
+           <input type="text" id="firstName" name="firstName">
+         </div>
+
+         <div class="form-group">
+           <label for="latsName">Last Name</label>
+           <input type="text" id="lastName" name="lastName">
+         </div>
+
+         <div class="form-group">
+           <label for="email">Email</label>
+           <input type="email" id="email" name="email">
+         </div>
+
+         <div class="form-group">
+           <label for="payment">Payment Type</label>
+           <input type="payment" id="payment" name="payment">
+         </div>
+
+         <div class="form-group">
+           <label for="massage">Your Order</label>
+           <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+         </div>
+
+         <button type="submit">Submit</button>
+       </form>
+     </div>
+     <div id="status"></div>
+   </section>
+</body>
+</html>
