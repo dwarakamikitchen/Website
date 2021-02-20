@@ -333,3 +333,50 @@ img{
     border-radius: 50%;
     cursor: pointer;
 }
+
+.menu {
+    border: 1px solid #f2af58;
+    background: black;
+    padding-left: 0px;
+    margin: auto;
+    height: 2000px;
+    width: 1250px;
+}
+
+.breakfastMenuSubContainer{
+    float:left;
+    padding-bottom: 50px;
+    width: 600px;
+
+}
+
+.lunchMenuSubContainer {
+  float:right;
+  width: 600px;
+  
+}
+.menuHeading {
+    padding-top: 30px;
+    color: #d26c13;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.menuItemsContainer{
+    padding-left: 100px;
+    font-size: 200%;
+}
+
+.ssMenuSubContainer{
+  width: 600px;
+}
+
+.spicesMenuSubContainer {
+  float:right;
+  width: 600px;
+}
+li{
+  padding-bottom: 15px;
+  line-height: 1.5;
+  color: orange;
+}
